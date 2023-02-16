@@ -17,7 +17,7 @@ class DevConfig(object):
     }
     # TODO: Provide your local login info.
     MYSQL_DATABASE_USER = 'root'
-    MYSQL_DATABASE_PASSWORD = 'ece1779pass'
+    MYSQL_DATABASE_PASSWORD = ''
     MYSQL_DATABASE_DB = 'Assignment_1'
     MYSQL_DATABASE_HOST = 'localhost'
     # Memcache related macro

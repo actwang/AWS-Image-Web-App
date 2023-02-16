@@ -94,6 +94,7 @@ def add_memcache(key, file):
     # Keep popping until we have enough space in memcache for the new image
     while memcache_stat['size'] + image_size > memcache_config['capacity']:
         replace_memcache()   # stats are updated inside
+    print(" I AM OUT !!!!")
 
     if key in memcache.keys():
         memcache[key]['file'] = file            # update/add it to memcache
