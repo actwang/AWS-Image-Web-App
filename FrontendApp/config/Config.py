@@ -8,7 +8,7 @@ class DevConfig(object):
     FILENAME_SEPARATOR = '_'
     DB_CONFIG = {
         'user': 'root',
-        'password': 'ece1779pass',
+        'password': '',
         'host': 'localhost',
         'database': 'Assignment_1',
         'table': 'keylist',
